@@ -1,0 +1,146 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@200;500;800&family=Ubuntu:wght@500&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Sora", sans-serif;
+}
+/* title */
+#title {
+	background-color: #ff4c68;
+	color: #fff;
+}
+
+#title h1,
+#cta h3 {
+	font-family: "Sora", sans-serif;
+	font-weight: 800;
+	font-size: 2.7rem;
+	line-height: 1.5;
+	color: white;
+}
+
+.container-fluid {
+	padding: 3% 12% 7%;
+}
+
+/* navigationbar */
+.navbar {
+	margin-bottom: 4.5rem;
+}
+.navbar-brand {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2.4rem;
+}
+.nav-item {
+	padding: 0 1rem;
+}
+
+/* title image */
+.title-img {
+	width: 15rem;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 20%;
+}
+
+/*Features*/
+
+#features {
+	position: relative;
+	background-color: #fff;
+	padding: 2% 12%;
+}
+.feature-item h3 {
+	font-family: "Sora", sans-serif;
+	font-weight: bold;
+	font-size: 1.3rem;
+	margin: 1rem 0;
+}
+.feature-item p {
+	color: #8f8f8f;
+}
+
+#features i {
+	color: #ef8172;
+}
+#features i:hover {
+	color: #ff4c68;
+}
+
+/* Testimonials */
+
+#testimonials {
+	background-color: #ef8172;
+	/* height: 100vh; */
+}
+
+#testimonials h2 {
+	font-family: "Sora", sans-serif;
+	font-weight: 800;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: #fff;
+}
+#testimonials .testimonial-img {
+	width: 12%;
+	border-radius: 100%;
+	margin: 20px;
+}
+
+.carousel-item {
+	padding: 4% 12%;
+}
+
+.press img {
+	width: 12%;
+	margin: 50px 20px;
+}
+
+/* Pricing */
+#pricing {
+	height: 100vh;
+	background-color: #fff;
+}
+#pricing h4,
+#pricing h2 {
+	font-family: "Ubuntu", sans-serif;
+	color: #ff4c68;
+}
+#pricing i,
+#footer i {
+	color: #ff4c68;
+	padding: 0 9px;
+}
+#pricing .card {
+	border: none;
+	border-radius: 7%;
+	background-color: #fde2e4;
+}
+
+#cta {
+	background-color: #ff4c68;
+}
+
+#footer {
+	padding: 2% 15%;
+}
+
+/* MOBILE SIZE */
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+	.title-img {
+		position: static;
+		transform: initial;
+		padding: 1.5rem 0;
+	}
+	#pricing {
+		height: initial;
+	}
+	.btn {
+		font-size: smaller;
+	}
+}
